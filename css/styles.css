@@ -117,12 +117,14 @@ section#services ul {
 }
 
 #services .why-image {
-    align-self: flex-end;
+    align-self: center;
     margin-top: 1em;
     max-width: 50%;
-    height: auto;
+    height: 700px;
+    width: 1000px;
     border-radius: 8px;
 }
+
 
 
 /* Footer Styles */
