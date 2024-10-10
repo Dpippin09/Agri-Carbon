@@ -44,6 +44,27 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Banner Styles */
+.banner {
+    background-image: url('images/banner.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner .home-content {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to the content */
+    padding: 2em;
+    border-radius: 8px;
+}
+
+
 /* Main Section Styles */
 main {
     padding: 2em;
