@@ -66,35 +66,45 @@ main {
     background-color: #f2e8cf;
 }
 
-#about {
+#contact {
     background-color: #ecf39e;
     padding: 2em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
 }
 
-/* About Section Styles */
-#about h2 {
-    margin-top: 0;
-    color: #283618;
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-#about p {
-    margin: 1em 0;
+form label {
+    margin-top: 1em;
 }
 
-#about ul {
-    list-style: none;
-    padding: 0;
-}
-
-#about ul li {
-    background: #d9e2c3;
-    margin: 0.5em 0;
-    padding: 1em;
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    border: none;
+    border-radius: 4px;
+    background: #606c38;
+    color: #fefae0;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #283618;
 }
 
 /* Footer Styles */
@@ -136,11 +146,15 @@ footer ul li a:hover {
         margin: 0.5em 0;
     }
 
-    #about {
+    #contact {
         padding: 1em;
     }
 
-    #about ul li {
+    form input, form textarea {
+        font-size: 1em;
+    }
+
+    form button {
         font-size: 1em;
     }
 }
@@ -150,7 +164,11 @@ footer ul li a:hover {
         font-size: 1.2em;
     }
 
-    #about ul li {
+    form input, form textarea {
+        font-size: 0.9em;
+    }
+
+    form button {
         font-size: 0.9em;
     }
 }
